@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="game.js" charset="utf-8"></script>
+<link rel="stylesheet" type="text/css" href="main.css"/>
+<link rel="stylesheet" type="text/css" href="level1.css"/>
+</head>
+  <body onload="startGame( )">
+    <div class="game-wrapper">
+
+      <div class="start-screen">
+        <div class="info-box-wrapper rounded-corners-15">
+          <h1 class="info-box-title">
+            Media Query Game
+          </h1>
+          <div class="info-box-text">
+            This is an extremely simple proof of concept game based on media queries and resizing the window to move the main character. To play resize your window to its smallest size. The game will start. Attempt to get to the hole in the opposite corner without the slow lasers touching you. All levels are css sytlesheets and when you beat one you move to the next one. The animation of the player is also my first steps towards making a spriting library.
+          </div>
+        </div>
+      </div>
+
+      <div class="beat-level-screen">
+        <div class="info-box-wrapper rounded-corners-15">
+          <h1 class="info-box-title">
+            Level Completed!
+          </h1>
+          <div class="info-box-text">
+            Great Job! Resize your window to its smallest size to play the next level.
+          </div>
+        </div>
+      </div>
+
+      <div class="failed-level-screen">
+        <div class="info-box-wrapper rounded-corners-15">
+          <h1 class="info-box-title">
+            Good Try!
+          </h1>
+          <div class="info-box-text">
+            Avoid the lasers and going off the board. Sometimes you have to resize the window in diffent ways to stop the lasers from hitting you. Resize your window to its smallest size to play again.
+          </div>
+        </div>
+      </div>
+
+      <div class="finished-screen">
+        <div class="info-box-wrapper rounded-corners-15">
+          <h1 class="info-box-title">
+            You Win!
+          </h1>
+          <div class="info-box-text">
+            You beat all the stylesheets! Great job!
+          </div>
+        </div>
+      </div>
+
+
+      <div class="game-board">
+        <div class="player">
+          <img class="animate-sprite-sheet" src="cube.png" alt="magic" height="720" width="600">
+        </div>
+        <div class="start"></div>
+        <div class="exit"></div>
+
+      </div>
+
+    </div>
+
+  </body>
+</html>
+
