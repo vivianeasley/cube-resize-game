@@ -4,4 +4,4 @@ This is an extremely simple proof of concept game based on media queries and res
 
 # Demo
 
-https://robertpage.github.io/cube-resize-game/
+https://vivianeasley.github.io/cube-resize-game/
